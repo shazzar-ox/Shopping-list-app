@@ -1,0 +1,150 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    background-color: #46C2CB;
+    color: #432000;
+    user-select: none;
+   
+}
+.main-div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 3% auto;
+    /* background: #453C67; */
+    border-radius: 15px;
+    /* border: 2px solid green; */
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 2px solid green; */
+    padding: 3%;
+    gap: 20px;
+}
+
+img {
+    width: 40%;
+    padding-top: 3%;
+    margin: 0px auto;
+    
+}
+input {
+    
+    color: white;
+    background-color: lightgrey;
+    padding: 20px 30px;
+    border: none;
+    width: 40%;
+    min-width: 40%;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0px auto;
+    font-size: 15px;
+}
+input:focus
+{
+    background: whitesmoke;
+    color:black ;
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+}
+button {
+    
+    color: #FDFDFD;
+    background-color: #46C2CB;
+    padding: 10px 30px;
+    border: none;
+    text-align: center;
+    width: 50%;
+    min-width: 50%;
+    border-radius: 10px;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    cursor: pointer;
+    margin: 0px auto;
+    font-weight: bolder;
+   
+}
+
+button:hover {
+    background:green;
+}
+
+ul {
+    /* display: inline-flex; */
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 170%; */
+    gap: 20px;
+    /* border: 2px solid black; */
+    list-style-type: none;
+    padding-left: 0px;
+    /* padding-right: 7%; */
+}
+
+li {
+    /* display: inline-flex; */
+    /* display: flex;
+    flex-wrap: wrap; */
+    color: white;
+    flex-grow:1;
+    background-color: #6D67E4;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 2% 3%;
+    border: none;
+    width: 10%;
+    min-width:10%;
+    text-align: center;
+    /* width: 130px; */
+    border-radius: 10px;
+    
+    /* padding: 5%; */
+    /* margin:2%; */
+}
+li:hover{
+    background: red;
+}
+
+
+@media (width < 500px)
+{
+    li {
+        /* display: inline-flex; */
+        /* display: flex;
+        flex-wrap: wrap; */
+      
+        width: 70%;
+        min-width:70%;
+      
+       
+    }
+    button {
+    
+        width: 70%;
+        min-width: 70%;
+     
+    }
+    ul {
+     
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    li {
+        /* display: inline-flex; */
+        /* display: flex;
+        flex-wrap: wrap; */
+        color: white;
+        flex-grow:1;
+        background-color: #6D67E4;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+        padding: 5% 5%;
+       
+        /* padding: 5%; */
+        /* margin:2%; */
+    }
+    
+}
